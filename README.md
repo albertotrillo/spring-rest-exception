@@ -1,4 +1,4 @@
-# spring-rest-exception
+# Atrillo Tools - Spring Rest Exception
 
 Contains a set of rest api standard-compliant exceptions annotated with their corresponding ResponseStatus code.
 
