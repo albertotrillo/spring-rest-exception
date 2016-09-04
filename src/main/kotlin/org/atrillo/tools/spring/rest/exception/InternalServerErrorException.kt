@@ -1,0 +1,7 @@
+package org.atrillo.tools.spring.rest.exception
+
+import org.springframework.http.HttpStatus
+import org.springframework.web.bind.annotation.ResponseStatus
+
+@ResponseStatus(value= HttpStatus.INTERNAL_SERVER_ERROR)  // 500
+open class InternalServerErrorException(message: String?) : RuntimeException(message)
